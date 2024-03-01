@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex</title>
+    <style>
+      
+        .cont{
+            text-align: center;
+        }
+        i{
+            font-size: 2rem;
+            border: 1px solid green;
+            color: violet;
+            border-radius: 50%;
+            transition: background 0.5s;
+            padding: 8px;
+            
+
+        
+        }
+        i:hover{
+            background-color:red ;
+            cursor: pointer;
+
+        }
+    </style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="cont">
+        <h1>Personal Assistant...</h1>
+        <i onclick="recognition.start()" class="fa-solid fa-microphone"></i>
+        <h4 id="output"></h4>
+        <h4 id="res"></h4>
+        <!-- <h4 id="gf"></h4> -->
+    </div>
+
+    <script src="./index.js"></script>
+    
+</body>
+</html>
